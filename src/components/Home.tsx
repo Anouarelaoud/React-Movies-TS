@@ -9,7 +9,7 @@ import Spinner from "./Spinner";
 import SearchBar from "./SearchBar";
 import Button from "./Button";
 
-const Home = () => {
+const Home: React.FC = () => {
   const { state, loading, error, searchTerm, setSearchTerm, setIsLoadingMore } =
     useHomeFetch();
 
